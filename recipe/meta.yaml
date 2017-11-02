@@ -1,6 +1,6 @@
 {% set name = "zeep" %}
-{% set version = "2.2.0" %}
-{% set sha256 = "673811a00c05f6cc4b3dff1ef7abfcd845614cdcdff2961bf5b10aadfd40f5a8" %}
+{% set version = "2.4.0" %}
+{% set sha256 = "8631e2735c5f2219eb18ca4f0615ae482455628518508f69c3690dbfb8238aee" %}
 
 package:
   name: {{ name|lower }}
@@ -47,10 +47,10 @@ about:
     Zeep inspects the WSDL document and generates the corresponding code to use
     the services and types in the document. This provides an easy to use
     programmatic interface to a SOAP server.
-    
+
     The emphasis is on SOAP 1.1 and SOAP 1.2, however Zeep also offers support
     for HTTP Get and Post bindings.
-    
+
     Parsing the XML documents is done by using the lxml library. This is the
     most performant and compliant Python XML library currently available. This
     results in major speed benefits when processing large SOAP responses.
