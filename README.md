@@ -24,14 +24,16 @@ results in major speed benefits when processing large SOAP responses.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/zeep-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/zeep-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/zeep-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/zeep-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/zeep-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/zeep-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/zeep-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/zeep-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/zeep-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/zeep-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/zeep-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/zeep-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/zeep/badges/version.svg)](https://anaconda.org/conda-forge/zeep)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/zeep/badges/downloads.svg)](https://anaconda.org/conda-forge/zeep)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-zeep-green.svg)](https://anaconda.org/conda-forge/zeep) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/zeep.svg)](https://anaconda.org/conda-forge/zeep) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/zeep.svg)](https://anaconda.org/conda-forge/zeep) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/zeep.svg)](https://anaconda.org/conda-forge/zeep) |
 
 Installing zeep
 ===============
