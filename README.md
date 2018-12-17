@@ -26,9 +26,8 @@ results in major speed benefits when processing large SOAP responses.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/zeep-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/zeep-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/zeep-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/zeep-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/zeep-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/zeep-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/zeep-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/zeep-feedstock)
 
 Current release info
 ====================
@@ -120,5 +119,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@Cadair](https://github.com/Cadair/)
 * [@adament](https://github.com/adament/)
 
