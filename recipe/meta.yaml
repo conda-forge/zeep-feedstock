@@ -1,6 +1,6 @@
 {% set name = "zeep" %}
-{% set version = "3.3.0" %}
-{% set sha256 = "491660e4105745d1b9d2fb63e94c9f4f4b367bffbbdcca7355848ec4df998d90" %}
+{% set version = "3.3.1" %}
+{% set sha256 = "f58328e36264a2fda2484dd20bb1695f4102a9cc918178d60c4d7cf8339c65d0" %}
 
 package:
   name: {{ name|lower }}
