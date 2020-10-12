@@ -1,6 +1,6 @@
 {% set name = "zeep" %}
-{% set version = "3.4.0" %}
-{% set sha256 = "0e98669cfeb60756231ae185498f9ae21b30b2681786b8de58ed34c3b93e41dd" %}
+{% set version = "4.0.0" %}
+{% set sha256 = "98158e43db33739d41502a1a7e3629dcb62dfd0864ea28c9d43f560a091cfe3f" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv" 
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
@@ -42,7 +42,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A fast and modern Python SOAP client'
+  summary: A fast and modern Python SOAP client
 
   description: |
     Zeep inspects the WSDL document and generates the corresponding code to use
