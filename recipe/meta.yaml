@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
@@ -21,7 +21,7 @@ requirements:
     - python
     - pip
   run:
-    - python >=3.6
+    - python >=3.7
     - attrs >=17.2.0
     - cached-property >=1.3.0
     - isodate >=0.5.4
