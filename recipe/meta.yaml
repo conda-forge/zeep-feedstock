@@ -1,6 +1,6 @@
 {% set name = "zeep" %}
-{% set version = "4.3.1" %}
-{% set sha256 = "f45385e9e1b09d5550e0f51ab9fa7c6842713cab7194139372fd82a99c56a06e" %}
+{% set version = "4.3.2" %}
+{% set sha256 = "1a23a667ce9d73a0dbfdf15745bfa2b7ab0b6402135c0cd5067574838398e0e6" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
